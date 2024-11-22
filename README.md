@@ -55,22 +55,22 @@ The server will start on the port specified in the `.env` file (default is 5000)
 ## API Endpoints
 
 ### Users
-- **GET /api/users**: Get all users with their roles and permissions.
-- **POST /api/users**: Create a new user.
-- **PUT /api/users/:id**: Update an existing user.
-- **DELETE /api/users/:id**: Delete a user.
+- **GET `/api/users`**: Get all users with their roles and permissions.
+- **POST `/api/users`**: Create a new user.
+- **PUT `/api/users/:id`**: Update an existing user.
+- **DELETE `/api/users/:id`**: Delete a user.
 
 ### Roles
-- **GET /api/roles**: Get all roles with populated permissions.
-- **POST /api/roles**: Create a new role.
-- **PUT /api/roles/:id**: Update an existing role.
-- **DELETE /api/roles/:id**: Delete a role.
+- **GET `/api/roles`**: Get all roles with populated permissions.
+- **POST `/api/roles`**: Create a new role.
+- **PUT `/api/roles/:id`**: Update an existing role.
+- **DELETE `/api/roles/:id`**: Delete a role.
 
 ### Permissions
-- **GET /api/permissions**: Get all permissions.
-- **POST /api/permissions**: Create or update a permission group.
-- **PUT /api/permissions/:groupId/:id**: Update a specific permission within a group.
-- **DELETE /api/permissions/:groupId/:id**: Delete a permission withing a group and if no permission then delete the group.
+- **GET `/api/permissions`**: Get all permissions.
+- **POST `/api/permissions`**: Create or update a permission group.
+- **PUT `/api/permissions/:groupId/:id`**: Update a specific permission within a group.
+- **DELETE `/api/permissions/:groupId/:id`**: Delete a permission withing a group and if no permission then delete the group.
 
 ## Database Models
 
