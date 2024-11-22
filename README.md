@@ -3,6 +3,8 @@
 
 This directory contains the backend server for the **Admin Dashboard** application. It is built using **Node.js** and **Express.js**, with a **MongoDB** database for storing data related to users, roles, and permissions.
 
+The Frontend for this project is avaiable [here](https://github.com/ViragJain3010/Admin-Dashboard-Frontend) 
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -18,7 +20,7 @@ This directory contains the backend server for the **Admin Dashboard** applicati
 
 1. Clone the repository and install the dependencies:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/ViragJain3010/Admin-Dashboard.git
    cd server
    npm install
    ```
